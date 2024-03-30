@@ -3,3 +3,20 @@
     a specific day. Include properties like "date," "temperature," "conditions," and "humidity."
     And display the information.    
 */
+
+const weatherForecast = {
+    "date": "2024-03-30",
+    "temperature": {
+      "min": 15,
+      "max": 25,
+      "unit": "Celsius"
+    },
+    "conditions": "Partly Cloudy",
+    "humidity": 60
+  };
+  
+  console.log("Weather Forecast for", weatherForecast.date);
+  console.log("Temperature:", weatherForecast.temperature.min + "°C - " + weatherForecast.temperature.max + "°C");
+  console.log("Conditions:", weatherForecast.conditions);
+  console.log("Humidity:", weatherForecast.humidity + "%");
+  
