@@ -5,7 +5,7 @@
 */
 
 const weatherForecast = {
-    "date": "2024-03-30",
+    "date": "2024-05-10",
     "temperature": {
       "min": 15,
       "max": 25,
