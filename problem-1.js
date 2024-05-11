@@ -7,12 +7,12 @@
 */
 
 const prompt = require("prompt-sync")();
-let userAge = parseInt(prompt("Please enter your age : "));
+let uAge = parseInt(prompt("Please enter your age : "));
 
 if(userAge < 18){
     console.log("You get a 20% discount!");
 }
-else if(userAge >= 18 && userAge <= 65){
+else if(uAge >= 18 && uAge <= 65){
     console.log("Normal ticket price applies!");
 }
 else{
