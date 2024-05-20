@@ -14,7 +14,7 @@ if (myAge >= 18) {
     console.log("Gender:", myGender);
     console.log("Email:", myEmail);
 } else {
-    console.log("Candidate cannot vote in the election.");
+    console.log("Candidate can not vote in the election.");
     if (myGender.toLowerCase() === "male") {
         console.log("Because he is underage. The minimum age required is 18.");
     } else {
