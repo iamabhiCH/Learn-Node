@@ -7,7 +7,7 @@
 
 const prompt = require("prompt-sync")();
 
-const guestList = ["Akash Sharma", "Akash Madhdheshiya", "Abhinav Arya", "Chandan Tiwari", "Roshan","Manish","Shashi","Awanish"];
+const guestList = [ "Akash Madhdheshiya", "Abhinav Arya", "Chandan Tiwari", "Roshan","Manish Yadav","Shashi","Awanish","Virat Kohli"];
 
 const guestName = prompt("Please enter your name : ");
 
