@@ -5,6 +5,6 @@ const prompt = require("prompt-sync")();
 const l = parseInt(prompt("Enter the length of rectangle :"));
 const b = parseInt(prompt("Enter the breadth of rectangle :"));
 
-const area = l * b;
+const ar = l * b;
 
-console.log("Area of the rectangle : "+area);
+console.log("Area of the rectangle : "+ar);
