@@ -2,4 +2,4 @@ function add(a,b){
     return a+b;
 }
 
-console.log(add(4,10));
+console.log(add(407,1089));
